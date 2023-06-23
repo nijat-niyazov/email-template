@@ -132,16 +132,13 @@
                             height: 32px;
                             width: 32px;
                             background-color: #01d13b;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
+                            display: inline-block;
+                            text-align: center;
                             border-radius: 50%;
                             padding: 10px;
-                            position: relative;
                           "
                         >
                           <img
-                            style="position: absolute; top: 20%"
                             src="https://i.ibb.co/HKQzV1K/done.png"
                             alt="done"
                             border="0"
@@ -183,16 +180,13 @@
                             height: 32px;
                             width: 32px;
                             background-color: #ffd600;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
+                            display: inline-block;
+                            text-align: center;
                             border-radius: 50%;
                             padding: 10px;
-                            position: relative;
                           "
                         >
                           <img
-                            style="position: absolute; top: 25%"
                             src="https://i.ibb.co/bFZqRbf/timer.png"
                             alt="timer"
                           />
@@ -233,9 +227,8 @@
                             height: 32px;
                             width: 32px;
                             background-color: #ececec;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
+                            display: inline-block;
+                            text-align: center;
                             border-radius: 50%;
                             padding: 10px;
                             position: relative;
@@ -244,15 +237,15 @@
                           <img
                             src="https://qmeter-fb-pro.s3.amazonaws.com/main/qmeter_smiles.png"
                             alt="logo"
-                            ;
                             style="
+                              position: absolute;
                               width: 44px;
                               height: 44px;
-                              position: absolute;
-                              top: 15%;
+                              right: 5%;
                             "
                           />
                         </span>
+
                         <p
                           style="
                             font-family: 'Inter', sans-serif;
@@ -314,21 +307,28 @@
               <!-- Icons -->
               <tr>
                 <td align="center">
-                  <img
-                    style="width: 44px; height: 44px; padding: 0 10px"
-                    src="https://i.ibb.co/DzdZFq4/wp.png"
-                    alt="whatsapp"
-                  />
-                  <img
-                    style="width: 44px; height: 44px; padding: 0 10px"
-                    src="https://i.ibb.co/TTV21HR/emal.png"
-                    alt="email"
-                  />
-                  <img
-                    style="width: 44px; height: 44px; padding: 0 10px"
-                    src="https://i.ibb.co/L126HCP/call.png"
-                    alt="call"
-                  />
+                  <a style="text-decoration: none" target="_blank" href="">
+                    <img
+                      style="width: 44px; height: 44px; padding: 0 10px"
+                      src="https://i.ibb.co/DzdZFq4/wp.png"
+                      alt="whatsapp"
+                    />
+                  </a>
+                  <a style="text-decoration: none" target="_blank" href="">
+                    <img
+                      style="width: 44px; height: 44px; padding: 0 10px"
+                      src="https://i.ibb.co/TTV21HR/emal.png"
+                      alt="email"
+                    />
+                  </a>
+
+                  <a style="text-decoration: none" target="_blank" href="">
+                    <img
+                      style="width: 44px; height: 44px; padding: 0 10px"
+                      src="https://i.ibb.co/L126HCP/call.png"
+                      alt="call"
+                    />
+                  </a>
                 </td>
               </tr>
               <!-- Icons -->
@@ -365,7 +365,7 @@
                 >
                   <table>
                     <tr>
-                      <td style="width: 180px">
+                      <td style="width: 240px">
                         <h5 style="font-weight: 400; font-size: 14px">
                           United Arab Emirates
                         </h5>
@@ -388,7 +388,7 @@
                         </address>
                       </td>
 
-                      <td style="width: 120px; padding-left: 100px">
+                      <td style="width: 140px; padding-left: 50px">
                         <h5 style="font-weight: 400; font-size: 14px">
                           Azerbaijan
                         </h5>
@@ -410,15 +410,9 @@
                         </address>
                       </td>
 
-                      <td
-                        style="
-                          position: absolute;
-                          width: 250px;
-                          top: 0;
-                          right: 0;
-                        "
-                      >
-                        <table style="position: relative">
+                      <td>
+                        <!-- <img src="https://i.ibb.co/DWrkt5v/map.png" /> -->
+                        <!-- <table style="position: relative">
                           <tr>
                             <td>
                               <img src="https://i.ibb.co/DWrkt5v/map.png" />
@@ -432,6 +426,7 @@
                                 position: absolute;
                                 top: 15%;
                                 right: 65%;
+                                width: 10%;
                               "
                             >
                               <table>
@@ -467,11 +462,14 @@
                               </table>
                             </td>
                           </tr>
-                        </table>
+                        </table> -->
                       </td>
                     </tr>
                   </table>
                 </td>
+              </tr>
+              <tr>
+                <!-- Map -->
               </tr>
             </tfoot>
 
